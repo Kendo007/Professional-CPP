@@ -1,8 +1,9 @@
 #include <iostream>
-#include "/root/CPPMasterclass/Professional C++/format"
+#include <format>
+using namespace std;
 
 int main() {
-    std::cout << "Hello World!" << std::endl;
+    cout << format("Hello, {}!", "world") << endl;
 
     return 0;
 }

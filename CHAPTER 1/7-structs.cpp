@@ -1,7 +1,13 @@
 #include <iostream>
-#include "/root/CPPMasterclass/Professional C++/format"
-import employee;
+#include <format>
 using namespace std;
+
+typedef struct Employee {
+    char firstInitial;
+    char lastInitial;
+    int employeeNumber;
+    int salary;
+} Employee;
 
 int main() {
     // Create and populate an employee.
